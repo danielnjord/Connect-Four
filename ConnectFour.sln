@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConnectFour", "ConnectFour.csproj", "{45539650-27B4-4ED4-A660-96E101C9AA63}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnitTest", "..\xUnitTest\xUnitTest.csproj", "{C59C38D8-98F9-4F15-829C-ED0E1B830600}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{45539650-27B4-4ED4-A660-96E101C9AA63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45539650-27B4-4ED4-A660-96E101C9AA63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45539650-27B4-4ED4-A660-96E101C9AA63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C59C38D8-98F9-4F15-829C-ED0E1B830600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C59C38D8-98F9-4F15-829C-ED0E1B830600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C59C38D8-98F9-4F15-829C-ED0E1B830600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C59C38D8-98F9-4F15-829C-ED0E1B830600}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
