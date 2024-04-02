@@ -3,9 +3,9 @@
 <HeadContent>
     <style>
         :root {
-            --board-bg: yellow;
-            --player1: blue;
-            --player2: red;
+            --board-bg: black;
+            --player1: green;
+            --player2: orange;
         }
     </style>
 </HeadContent>
@@ -49,15 +49,17 @@
     private string CurrentTurn => (winnerMessage == string.Empty) ? $"Player {State.PlayerTurn}'s Turn" : "";
     private string ResetStyle => (winnerMessage == string.Empty) ? "display:none;" : "";
 
+    @*
     // Parametrar för färger
     [Parameter]
-    public string BoardBackgroundColor { get; set; } = "yellow";
+    public string BoardBackgroundColor { get; set; }
 
     [Parameter]
-    public string Player1Color { get; set; } = "red";
+    public string Player1Color { get; set; }
 
     [Parameter]
-    public string Player2Color { get; set; } = "blue";
+    public string Player2Color { get; set; }
+    *@
 
     protected override void OnInitialized()
     {
